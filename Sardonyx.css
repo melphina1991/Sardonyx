@@ -1,0 +1,153 @@
+﻿body {
+    margin:0;
+    padding:0;
+    background-image: url('pp.jpg');
+    background-size: cover;
+    font-family:sans-serif;
+
+}
+.IndexBox
+{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:350px;
+    height:420px;
+    padding:80px 40px;
+    box-sizing:border-box;
+    background: rgba(0,128,0,0.3);
+
+
+}
+
+.IndexsBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 500px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgba(0,128,0,0.3);
+}
+    
+    
+    
+    .grid {
+    width: 399px;
+    position: absolute;
+    top: 70%;
+    left: 0%;
+    background: rgb(255, 255, 255);
+    margin-top: 0px;
+}
+    .user {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    top: calc(-100px/2);
+    left: calc(50% - 50px);
+    position: absolute;
+}
+h2 {
+    margin: 0;
+    padding: 0;
+    text-align:center;
+    color: rgb(241, 222, 120);
+}
+
+.lblPass, .lblUser {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 16px;
+    color: #fff;
+}
+.lblPassi {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 16px;
+    color: rgb(241, 222, 120);
+    font-weight: bold;
+}
+.lblPasserr {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(229, 151, 151);
+}
+
+.lbl {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+.btnCash, .btnAdmin, .btnLog {
+    width: 100%;
+    margin-bottom: 20px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(255,9,9);
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+    .btn:hover {
+        background-color: rgb(76, 255, 0);
+    }
+
+.btnAdmin:hover 
+{
+    background-color: rgb(76, 255, 0);
+}
+
+    .btnCash:hover {
+        background-color: rgb(76, 255, 0);
+    }
+
+    .btnLog:hover {
+        background-color: rgb(255, 216, 0);
+    }
+.btn {
+    width: 60px;
+    margin-bottom: 20px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: #fff;
+    background-color: rgb(255,9,9);
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+.btns {
+    width: 60px;
+    margin-bottom: 20px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+    font-weight: bold;
+}
+h3 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: rgb(241, 222, 120);
+}
